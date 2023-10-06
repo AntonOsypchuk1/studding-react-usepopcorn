@@ -11,7 +11,7 @@ const starContainerStyle = {
   display: "flex",
 };
 
-StartRating.propTypes = {
+StarRating.propTypes = {
   maxRating: PropTypes.number,
   defaultRating: PropTypes.number,
   color: PropTypes.string,
@@ -21,7 +21,7 @@ StartRating.propTypes = {
   onSetRating: PropTypes.func,
 };
 
-export default function StartRating({
+export default function StarRating({
   maxRating = 5,
   color = "#fcc419",
   size = 48,
